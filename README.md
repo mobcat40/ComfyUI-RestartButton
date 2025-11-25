@@ -8,17 +8,13 @@ Adds a restart button to the ComfyUI sidebar for quick server reboots.
 
 - Adds a restart button to the bottom of the sidebar (next to Help, Console, Shortcuts)
 - Confirmation dialog before restarting
-- Uses ComfyUI-Manager's reboot endpoint
+- Standalone — no ComfyUI-Manager required
 
 ## Requirements
 
 - [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
-- [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager) (provides the restart API)
 
 ## Installation
-
-### Via ComfyUI-Manager
-Search for "RestartButton" in the ComfyUI-Manager and install.
 
 ### Manual Installation
 ```bash
@@ -31,3 +27,7 @@ Restart ComfyUI after installation.
 ## Usage
 
 Click the refresh icon at the bottom of the sidebar. Confirm the dialog to restart the server.
+
+## License
+
+MIT License: free to use forever!
