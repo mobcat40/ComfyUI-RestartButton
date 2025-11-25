@@ -59,7 +59,7 @@ app.registerExtension({
                     ) {
                         button.click();
                         if (confirm("Restart ComfyUI server?")) {
-                            api.fetchApi("/manager/reboot").catch(() => {});
+                            api.fetchApi("/restart-button/restart", { method: "POST" }).catch(() => {});
                         }
                     }
                 }
